@@ -1,0 +1,46 @@
+from typing import List, Dict
+
+
+OCTAVE: Dict[str, List] = {
+    "Do-Ra-Mi": [
+        "do",
+        "do-diesis",
+        "re",
+        "re-diesis",
+        "mi",
+        "fa",
+        "fa-diesis",
+        "sol",
+        "sol-diesis",
+        "la",
+        "la-diesis",
+        "si",
+    ],
+    "Sa-Re-Ga (English)": [
+        "Sa",
+        "Re-Komal",
+        "Re",
+        "Ga-Komal",
+        "Ga",
+        "Ma",
+        "Ma-Tivra",
+        "Pa",
+        "Dha-Komal",
+        "Dha",
+        "Ni-Komal",
+        "Ni",
+    ],
+    "Sa-Re-Ga (Hindi)": [
+        "सा",
+        "रे॒",
+        "रे",
+        "ग॒",
+        "ग",
+        "म",
+        "म॑",
+        "प",
+        "ध॒",
+        "ध",
+        "नि॒",
+    ],
+}
